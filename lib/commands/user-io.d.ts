@@ -1,5 +1,6 @@
 import { CommandGenerator, ICommandWithRaw } from './types';
 declare const _default: (generator: CommandGenerator) => {
+    playAudioFile: (idx: number) => ICommandWithRaw;
     allLEDsRaw: (payload: number[]) => ICommandWithRaw;
     setBackLedIntensity: (i: number) => ICommandWithRaw;
     setMainLedBlueIntensity: (b: number) => ICommandWithRaw;

@@ -10,7 +10,7 @@ export class R2D2 extends RollableToy {
     class: R2D2,
   };
 
-  public playAudioFile(payload: number[]) {
-    return this.queueCommand(this.commands.userIo.playAudioFile(payload));
+  public playAudioFile(idx: number) {
+    return this.queueCommand(this.commands.userIo.playAudioFile(idx));
   }
 }

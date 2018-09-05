@@ -7,5 +7,5 @@ export {
   SpheroMini,
   LightningMcQueen,
   BB9E,
-  R2D2
+  R2D2,
 };

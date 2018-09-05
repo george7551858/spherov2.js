@@ -25,6 +25,7 @@ export declare const factory: (seq?: () => number) => {
         something7: () => ICommandWithRaw;
     };
     userIo: {
+        playAudioFile: (idx: number) => ICommandWithRaw;
         allLEDsRaw: (payload: number[]) => ICommandWithRaw;
         setBackLedIntensity: (i: number) => ICommandWithRaw;
         setMainLedBlueIntensity: (b: number) => ICommandWithRaw;
