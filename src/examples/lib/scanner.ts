@@ -4,6 +4,7 @@ import { IToyAdvertisement } from '../../toys/types';
 import { wait } from '../../utils';
 import { Core } from '../../toys/core';
 import { BB9E } from '../../toys/bb9e';
+import { R2D2 } from '../../toys/r2d2';
 import { LightningMcQueen } from '../../toys/lightning-mcqueen';
 import { SpheroMini } from '../../toys/sphero-mini';
 
@@ -93,4 +94,8 @@ export const findSpheroMini = async () => {
 
 export const findLightningMcQueen = async () => {
   return await find(LightningMcQueen.advertisement) as LightningMcQueen;
+};
+
+export const findR2D2 = async () => {
+  return await find(R2D2.advertisement) as R2D2;
 };
